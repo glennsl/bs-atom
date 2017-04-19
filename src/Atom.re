@@ -37,8 +37,7 @@ module Cursor = {
 module Panel = {
   type t = panel;
 
-  external isVisible : Js.boolean = "" [@@bs.send.pipe: t];
-  let isVisible : t => bool = fun self => Js.to_bool (isVisible self);
+  external isVisible : bool = "" [@@bs.send.pipe: t];
   external hide : unit = "" [@@bs.send.pipe: t];
   external show : unit = "" [@@bs.send.pipe: t];
   external destroy : unit = "" [@@bs.send.pipe: t];
@@ -48,8 +47,7 @@ module TextEditor = {
   type t = textEditor;
 
   external getCursors : array cursor = "" [@@bs.send.pipe: t];
-  external isMini : Js.boolean = "" [@@bs.send.pipe: t];
-  let isMini : t => bool = fun self => Js.to_bool (isMini self);
+  external isMini : bool = "" [@@bs.send.pipe: t];
 
   /* extension */
   external getView : t => Dom.element = "atom.views.getView" [@@bs.val];
