@@ -1,0 +1,20 @@
+{
+  "name": "bs-atom",
+  "version": "0.0.1",
+  "description": "Atom bindings for BuckleScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glennsl/bs-atom.git"
+  },
+  "keywords": [
+    "vscode",
+    "bucklescript",
+    "extension",
+    "bindings"
+  ],
+  "author": "glennsl",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^1.7.1"
+  }
+}
