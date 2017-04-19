@@ -1,6 +1,3 @@
-open Rebase;
-open ReasonJs;
-
 type compositeDisposable;
 type cursor;
 type disposable;
