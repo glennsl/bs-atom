@@ -6,10 +6,13 @@
     "type": "git",
     "url": "https://github.com/glennsl/bs-atom.git"
   },
+  "homepage": "https://github.com/glennsl/bs-atom#readme",
+  "bugs": "https://github.com/glennsl/bs-atom/issues",
   "keywords": [
-    "vscode",
+    "reason",
     "bucklescript",
-    "extension",
+    "atom",
+    "package",
     "bindings"
   ],
   "author": "glennsl",
